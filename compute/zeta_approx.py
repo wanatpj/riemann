@@ -17,7 +17,7 @@ def parse_args():
     )
     return parser.parse_args()
 
-## Very incorrect for numbers close to 1.
+## Very incorrect for `s`` close to 1.
 def main():
     args = parse_args()
     c = complex(0)
